@@ -8,15 +8,17 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Fuwari",
-	subtitle: "Demo Site",
-	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	title: "include_blog_h", //博客主标题
+	subtitle: "Demo Site", //博客副标题。可选，在首页会显示为“主标题 - 副标题
+	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.博客显示语言
 	themeColor: {
+		//themeColor：hue 表示博客主题色
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: false,
+		//banner：src：即banner图片，支持http/https URL
+		enable: true,
 		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
@@ -30,6 +32,7 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
+		//favicon：src：即网站图标，支持http/https URL
 		// Leave this array empty to use the default favicon
 		// {
 		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
@@ -40,7 +43,9 @@ export const siteConfig: SiteConfig = {
 };
 
 export const navBarConfig: NavBarConfig = {
+	//NavBarConfig 用于配置导航栏链接
 	links: [
+		//links：即友情链接，这些链接在导航栏上
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
@@ -53,9 +58,10 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	//ProfileConfig 用于配置个人资料区域的链接
+	avatar: "assets/images/demo-avatar.png", // avatar：你的头像 Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "Lorem Ipsum", //name：你的名字
+	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", //bio：个性签名，会显示在头像和名字下方
 	links: [
 		{
 			name: "Twitter",
@@ -66,7 +72,8 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Steam",
-			icon: "fa6-brands:steam",
+			icon: "fa6-brands:steam", //你可以前往 icones.js 搜索想要的图标。例如 QQ 可以填写 fa6-brands:qq。
+			// Fuwari 默认支持 fa6-brands、fa6-regular、fa6-solid、material-symbols 等类型，必要时也可以在 astro.config.mjs 中继续扩展
 			url: "https://store.steampowered.com",
 		},
 		{
