@@ -60,8 +60,8 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	//ProfileConfig 用于配置个人资料区域的链接
 	avatar: "assets/images/demo-avatar.png", // avatar：你的头像 Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum", //name：你的名字
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", //bio：个性签名，会显示在头像和名字下方
+	name: "include_zl_h", //name：你的名字
+	bio: "苍生皆平庸，蝼蚁望晴空，秋去惹惊鸿，冬来归江东。", //bio：个性签名，会显示在头像和名字下方
 	links: [
 		{
 			name: "Twitter",
