@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/pc1.md",
+                "file": "posts/pc2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pc1"
+              "title": "pc2"
             }
           }
         ]
@@ -183,20 +183,22 @@
       "bases:新建数据库": false
     }
   },
-  "active": "9b11ad9a1f52fb40",
+  "active": "b673e7ca533d3ddd",
   "lastOpenFiles": [
-    "assets/images/pc1-3.png",
+    "assets/images/pc2-16.png",
+    "assets/images/pc2-15.png",
+    "assets/images/pc2-14.png",
+    "assets/images/pc2-13.png",
+    "assets/images/pc2-12.png",
+    "assets/images/pc2-11.png",
+    "assets/images/pc2-10.png",
+    "assets/images/pc2-9.png",
+    "assets/images/pc2-8.png",
+    "assets/images/pc2-8.png",
+    "assets/images/pc2-7.png",
     "posts/pc1.md",
-    "assets/images/Gemini_Generated_Image_j4bbzjj4bbzjj4bb.png",
-    "assets/images/pc1-2.png",
-    "assets/images/pc1-1.png",
-    "assets/images/ChatGPT Image 2026年6月17日 18_28_31.png",
-    "assets/images/Gemini_Generated_Image_47yavm47yavm47ya.png",
-    "assets/images/pc1.png",
-    "assets/images/ChatGPT Image 2026年6月17日 18_09_13.png",
+    "posts/pc2.md",
     "spec/about.md",
-    "assets/images/ChatGPT Image 2026年6月14日 21_51_43.png",
-    "assets/images/Pasted image 20260617174945.png",
     "assets/images",
     "assets",
     "posts/pc-1.md",
