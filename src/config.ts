@@ -9,7 +9,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "include_blog_h", //博客主标题
-	subtitle: "Welcome！", //博客副标题。可选，在首页会显示为“主标题 - 副标题
+	subtitle: "Welcome!", //博客副标题。可选，在首页会显示为“主标题 - 副标题
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.博客显示语言
 	themeColor: {
 		//themeColor：hue 表示博客主题色
