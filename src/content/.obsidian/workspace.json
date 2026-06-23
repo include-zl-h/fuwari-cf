@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/pc1.md",
+                "file": "posts/pc2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pc1"
+              "title": "pc2"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "b673e7ca533d3ddd",
   "lastOpenFiles": [
-    "posts/pc2.md",
     "posts/pc1.md",
+    "posts/pc2.md",
     "assets/images/pc2-16.png",
     "assets/images/pc2-15.png",
     "assets/images/pc2-14.png",

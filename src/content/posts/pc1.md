@@ -1,7 +1,7 @@
 ---
 title: 大学生电脑入门(一)
 published: 2026-06-12
-description:
+description: ""
 image: ../assets/images/pc1.png
 tags:
   - 入门
