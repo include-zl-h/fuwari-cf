@@ -2,7 +2,7 @@
 title: 大学生电脑入门(三）
 published: 2026-06-24
 description: ""
-image: ""
+image: ../assets/images/pc3.png
 tags:
   - 电脑使用
   - 入门
